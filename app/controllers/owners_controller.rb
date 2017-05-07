@@ -3,9 +3,9 @@ class OwnersController < ApplicationController
 
   # GET /owners
   # GET /owners.json
-  def index
+def index
     @owners = Owner.all
-  end
+end
 
   # GET /owners/1
   # GET /owners/1.json
