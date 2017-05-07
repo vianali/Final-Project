@@ -1,0 +1,2 @@
+json.extract! owner, :id, :name, :phone_number, :address, :review, :latitude, :longitude, :type, :real_state_number, :state, :price, :availability, :created_at, :updated_at
+json.url owner_url(owner, format: :json)

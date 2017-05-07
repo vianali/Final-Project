@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @owner.name %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @owner.phone_number %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @owner.address %>
+</p>
+
+<p>
+  <strong>Review:</strong>
+  <%= @owner.review %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @owner.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @owner.longitude %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @owner.type %>
+</p>
+
+<p>
+  <strong>Real state number:</strong>
+  <%= @owner.real_state_number %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @owner.state %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @owner.price %>
+</p>
+
+<p>
+  <strong>Availability:</strong>
+  <%= @owner.availability %>
+</p>
+
+<%= link_to 'Edit', edit_owner_path(@owner) %> |
+<%= link_to 'Back', owners_path %>
